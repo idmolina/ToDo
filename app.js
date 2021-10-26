@@ -1,9 +1,9 @@
 const todos = [];
 //changes
 const pendingClasses =
-  "bg-white w-full text-center text-green-500 rounded py-4 border-2 border-green-500 transition transform ease-in-out duration-300 hover:bg-green-500 hover:text-white hover:scale-110 hover:rotate-1 cursor-pointer";
+  "bg-white w-full text-center text-purple-600 rounded py-4 border-2 border-purple-500 transition transform ease-in-out duration-300 hover:bg-purple-500 hover:text-white hover:scale-110 hover:rotate-1 cursor-pointer";
 const completedClasses =
-  "bg-white w-full text-center text-red-500 rounded py-4 border-2 border-red-500 transition transform ease-in-out duration-300 hover:bg-red-500 hover:text-white hover:scale-110 hover:-rotate-1 cursor-pointer";
+  "bg-white w-full text-center text-blue-600 rounded py-4 border-2 border-blue-500 transition transform ease-in-out duration-300 hover:bg-blue-500 hover:text-white hover:scale-110 hover:-rotate-1 cursor-pointer";
 
 const pendingList = document.getElementById("pendingList");
 const completedList = document.getElementById("completedList");

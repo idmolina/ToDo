@@ -9,12 +9,12 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-gray-300">
+  <body class="bg-gray-600"> <!--color of the background screen-->
     <div
       class="min-h-screen container mx-auto flex flex-col items-center justify-center"
     >
       <div lcass="title">
-        <h1 class="text-6xl font-light my-4">My List to do</h1>
+        <h1 class="text-6xl text-purple-400 font-light my-4">My List</h1> <!--My List to do title only-->
       </div>
       <div class="form w-full my-8">
         <form id="addForm" class="flex">
@@ -24,8 +24,9 @@
             class="flex-grow px-4 rounded-l-lg"
             placeholder="New Todo"
           />
+          <!--below is the add color to Add-->
           <button
-            class="bg-green-500 text-white py-2 px-4 rounded-r-lg hover:bg-green-700"
+            class="bg-purple-500 text-black py-2 px-4 rounded-r-lg hover:bg-black-700" 
           >
             Add
           </button>
@@ -33,11 +34,11 @@
       </div>
       <div id="todos" class="w-2/3 space-y-8 my-4">
         <div>
-          <h3 class="text-2xl text-green-800">Pending Items</h3>
+          <h3 class="text-2xl text-purple-400">Pending Items</h3> <!--the word pending item only-->
           <ul id="pendingList" class="space-y-4"></ul>
         </div>
         <div>
-          <h3 class="text-2xl text-red-800">Completed Items</h3>
+          <h3 class="text-2xl text-blue-400">Completed Items</h3> <!--the word completed item only-->
           <ul id="completedList" class="space-y-4"></ul>
         </div>
       </div>
